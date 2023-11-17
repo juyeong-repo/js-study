@@ -1,11 +1,38 @@
 
 
+/*
+헷갈리는 것 let vs Const 
+
+JavaScript에서 let과 const는 변수를 선언하는 데 사용되는 키워드입니다. 이 두 키워드 간의 주요 차이점은 변수의 재할당 가능 여부와 스코프입니다.
+
+let:
+
+1. let은 변수를 선언할 때 사용되며, 변수를 선언한 후에도 값을 변경할 수 있습니다(재할당 가능).
+2. let으로 선언한 변수는 블록 스코프(block-scoped)입니다. 즉, 변수는 선언된 블록 내에서만 유효하며 블록을 벗어나면 사용할 수 없습니다.
+
+Const:
+
+1. const도 변수를 선언할 때 사용되며, 변수를 선언한 후에는 재할당할 수 없습니다. 즉, 상수를 선언하는 데 사용됩니다.
+2. const로 선언한 변수 역시 블록 스코프를 가지며, 블록을 벗어나면 사용할 수 없습니다.
+
+따라서 변수를 선언할 때 재할당이 필요한 경우에는 let을 사용하고, 
+상수를 선언하거나 재할당을 허용하지 않아야 하는 경우에는 const를 사용하는 것이 좋습니다. 
+이로 인해 코드의 가독성이 향상되고 의도하지 않은 변수 값 변경을 방지할 수 있습니다.
+
+
+​*/
+
+
+
 // 1. Use strict
 // added in ES 5
 // use this for Vanila Javascript.
 'use strict';
 // 글로벌한 변수들은 메모리위에 올라가서 어플리케이션 처음부터 끝까지 내려오지 않음
-// 2. Variable, rw(read/write)
+
+// 2. Variable, rw(read/write) 메모리의 값을 읽고,쓰는 것이 가능하다.
+// const // 쓰는 것만 가능하다!!!read만 가능.
+
 // let (added in ES6)
 let globalName = 'global name';
 {
@@ -45,7 +72,7 @@ const maxNumber = 5;
 
 // 4. Variable types
 // primitive(더이상 작게 나눠질 수 없음), single item: number, string, boolean, null, undefined, symbol
-// object(프리미티브 모았어요), box container
+// object(프리미티브 모았어요), box container오브젝트는 레퍼런스가 저장, 프리미티브는 데이터가 저장 
 // function, first-class function (함수의 인자로도 전달될 수 있다.)
 
 // number
