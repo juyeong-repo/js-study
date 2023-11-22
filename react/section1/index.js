@@ -1,9 +1,8 @@
 import mul, { add, sub } from "./math.js"
-// import mul from "./math.js"
-
-console.log(add(1,2)); //3
-console.log(sub(1,2)); //3
-console.log(mul(10,20)); //200
+import randomColor from "randomcolor"; 
+// from 뒤에 경로를 적지 않은 것은 node_module로 부터 라이브러리를 읽어오겠다는 것
+// node_modules, package-lock은 삭제하고 공유해도 괜찮다(용량문제) -> npm install 하면 설치 됨
 
 
-// 비슷한 역할을 하는 함수들은 하나의 파일에 보관하자 -> math.js
+const color = randomColor();
+console.log(color);
