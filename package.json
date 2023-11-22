@@ -8,5 +8,6 @@
     "start": "node react/section1/index.js "
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "type" : "module"
 }
