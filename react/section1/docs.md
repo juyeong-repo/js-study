@@ -33,4 +33,4 @@
     -> **vite** 사용 
         - 명령어치면 잘 생성된 리액트 도구를 자동생성 :)  npm create vite @lastest
     2) vite.svg : 정적인 것들
-    3) 
+    3) React App에 접속 : http://localhost:5173/ (npm run dev)
