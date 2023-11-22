@@ -1,4 +1,10 @@
-console.log("Hello, Node.js");
-// package == project 명
-// node + -- : -- 실행 (경로 넣어도 ok)
-// 복잡해지면 경로 스크립트 
+const moduledata = require("./math");
+
+// const {add, sub} = require("./math");
+
+
+console.log(moduledata.add(1,2)); //3
+console.log(moduledata.sub(1,2)); //3
+
+
+// 비슷한 역할을 하는 함수들은 하나의 파일에 보관하자 -> math.js
