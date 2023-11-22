@@ -1,0 +1,16 @@
+{
+  "name": "section1",
+  "version": "1.0.0",
+  "description": "Study for vanilla javascript, node.js, next.js to develop both server and web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node react/section1/index.js "
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module", 
+  "dependencies": {
+    "randomcolor": "^0.6.2"
+  }
+}
