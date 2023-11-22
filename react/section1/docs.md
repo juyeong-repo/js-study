@@ -34,3 +34,5 @@
         - 명령어치면 잘 생성된 리액트 도구를 자동생성 :)  npm create vite @lastest
     2) vite.svg : 정적인 것들
     3) React App에 접속 : http://localhost:5173/ (npm run dev)
+    4) 리액트는 컴포넌트는 부모자식 구조로 구성된다
+    5) 컴포넌트는 별도의 파일에 분리해서 사용 
