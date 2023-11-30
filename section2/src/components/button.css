@@ -1,5 +1,5 @@
-import "./Button.css";
-
-export default function Button() {
-    return <botton className = "button"> 클릭 </botton>;
+.button{
+    padding : 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
 }
