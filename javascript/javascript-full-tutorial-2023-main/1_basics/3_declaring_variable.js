@@ -15,8 +15,9 @@ let ive = '아이브';
 console.log(ive);
 
 /**
- * let과 var로 선언하면
- * 값을 추후 변경할 수 있다.
+ * 
+ * let, var로 선언하면 값을 추후 변경 가능 
+ * but const는 추후 변경 불가
  */
 ive = '안유진';
 console.log(ive);
@@ -28,11 +29,11 @@ console.log(newJeans);
 
 /**
  * 선언과 할당
- * 
+ * declaration and allocation 
  * 1) 변수의 선언
  * 2) 값의 할당
  */
-var name = '코드팩토리';
+var name = '코드팩토리'; // Declaration and Allocation
 
 let girlFriend;
 console.log(girlFriend);

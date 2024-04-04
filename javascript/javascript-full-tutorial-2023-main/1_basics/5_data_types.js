@@ -48,7 +48,7 @@ console.log(ive);
 
 /**
  * Template Literal
- * 
+ * Template Literal , Escaping Character
  * Escaping Character
  * 1) newline -> \n
  * 2) tab -> \t
@@ -90,7 +90,8 @@ console.log(typeof isFalse);
  * 
  * 직접 undefined로 값을 초기화하는건 지양해야한다.
  */
-let noInit;
+let noInit; 
+let testValue; //undefined
 console.log(noInit);
 console.log(typeof noInit);
 
@@ -101,7 +102,7 @@ console.log(typeof noInit);
  * JS에서는 개발자가 명시적으로 없는 값으로 초기화할때
  * 사용된다.
  */
-let init = null;
+let init = null; //implictly declare
 console.log(init);
 console.log(typeof init);
 console.log('----------')
@@ -117,7 +118,7 @@ const test1 = '1';
 const test2 = '1';
 
 console.log(test1 === test2);
-
+const symbol3 = Symbol("string enable");
 const symbol1 = Symbol('1');
 const symbol2 = Symbol('1');
 
@@ -147,6 +148,7 @@ console.log(typeof dictionary);
  * Array 타입
  * 
  * 값을 리스트로 나열 할 수 있는 타입이다.
+ * 
  */
 const iveMembersArray = [
     '안유진',
@@ -173,7 +175,7 @@ console.log(typeof iveMembersArray);
 
 /**
  * static typing -> 변수를 선언할때 어떤 타입의 변수를 선언할지 명시를한다.
- *                  C
+ *                  
  * dynamic typing -> 변수의 타입을 명시적으로 선언하지 않고 갑에의해 타입을 "추론"한다.
  * JS -> dynamic typing
  */
